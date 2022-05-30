@@ -1,0 +1,564 @@
+.bgnav{
+    background: url(intro-bg2.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    max-width: 165rem;
+    height: 34.5rem;
+    border-radius: 1rem;
+}
+
+
+.nav{
+    position: sticky;
+    top: 0;
+    transition: all 1s ease-in-out;
+    background-color: rgb(43, 40, 40);
+    padding-bottom: 0.2rem;
+    z-index: 1;
+}
+
+
+.nav2{
+    position: sticky;
+    top: 0;
+    background-color: rgba(43, 40, 40, 0.834);
+    backface-visibility: hidden;
+    padding-bottom: 0.5rem;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+ul li {
+   
+    list-style: none; 
+    margin-top: 1rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(211, 206, 206);
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 5px black;
+    font-weight: px;
+}
+
+a:hover{
+    color: rgb(125, 186, 40);
+}
+
+.mobile{
+    display: none;
+}
+
+
+@media (max-width:600px){
+    .ul{
+     display: none;
+    }
+
+    .mobile{
+        display: block;
+        width: 100%;
+        max-width: 3rem;
+        cursor: pointer;
+        
+    }
+}
+
+
+
+.ulMobile{
+    display: block;
+    flex-direction: column;   
+     text-align: center;
+     z-index: 9999;
+     margin-right: 2rem;
+}
+
+
+.colorAbout2{
+    color: rgb(125, 186, 40);
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+#touchè{
+    margin-top: 10rem;
+    font-size: 10rem;
+    color: white;
+    text-shadow: 5px 10px 5px black;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+}
+
+@media (max-width:700px) {
+    #touchè{
+        font-size: 5rem;
+    }
+}
+
+#type{
+    margin-top: -3rem;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 5px 10px 5px black;
+}
+
+#discovery{
+    margin-top: -1rem;
+   display: inline-block;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+  background-color: rgb(125, 186, 40);
+  border: none;
+  text-shadow: 5px 5px 5px black;
+  font-size: 1.5rem;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+#imgAbout{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 1em;
+    outline: 1px solid white;
+    outline-offset: -10px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: -1.7rem;
+}
+
+.our{
+    border-bottom: 2px solid rgb(125, 186, 40);
+    text-align: center;
+    color: rgb(53, 47, 47);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h3{
+    color: rgb(53, 47, 47);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.p{
+    color: rgb(98, 93, 93);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+}
+
+
+
+
+
+
+@media(max-width: 750px){
+    .about{
+        flex-direction: column;
+    }
+    .text{
+        margin-left: 0;
+    }
+    .about{
+        margin-top: 13rem;
+    }
+
+}
+
+
+.myMenu{
+    background: url(menu3.jpg) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    height: 15rem;
+    background-attachment: fixed;
+    width: 100%;
+    max-width: 165rem;
+    margin-top: 5rem;
+    
+   
+}
+
+.myMenu2{
+    background: url(Gallery2.jpg) ;
+background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    height: 15rem;
+    background-attachment: fixed;
+    width: 100%;
+    max-width: 165rem;
+    margin-top: 5rem;
+    
+   
+}
+
+
+
+
+.nameMenu{
+    color: white;
+    border-bottom: 2px solid rgb(125, 186, 40);
+    text-shadow: 5px 5px 5px black;
+    font-size: 3rem;
+   
+}
+
+.p2{
+    color: white;
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px black;
+
+}
+
+
+
+
+.orderMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+.brekfast{
+    text-align: center;
+}
+
+.other{
+    text-align: center;
+}
+
+.food{
+    color: rgb(53, 47, 47);
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid rgb(125, 186, 40);
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted rgb(125, 186, 40);
+    
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted rgb(125, 186, 40);
+}
+
+@media(max-width: 1100px){
+    .orderMenu{
+        flex-direction: column;
+    }
+    .box1, .box2{
+        justify-content: space-evenly;
+        border: none;
+    }
+}
+
+
+.btns{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.btn{
+   margin-left: 2rem; 
+   background-color: rgb(156, 145, 145);
+   border: none;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+}
+
+.all{
+    background-color: rgb(125, 186, 40);
+    color: white;
+}
+
+.btALL{
+    background-color: rgb(156, 145, 145);
+    color: black;
+}
+
+
+.btn:hover{
+    margin-left: 2rem; 
+    background-color: rgb(125, 186, 40);
+    border: none;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease-in-out;
+ }
+
+ @media(max-width: 600px){
+    .btns{
+        flex-wrap: wrap;
+     
+    }
+    .btn{
+        margin-top: 1rem;
+    }
+}
+
+.breakf{
+    background-color: rgb(125, 186, 40);
+    color: white;
+}
+
+ .sec1{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+
+
+
+ .img{
+     width: 100%;
+     max-width: 23rem;
+     margin-left: 2rem;
+     margin-top: 2rem;
+     outline: 1px solid white;
+     outline-offset: -10px;
+     border-radius: 1rem;
+     transition: all 0.5s ease-in-out;
+ }
+
+ .img:hover{
+     background: rgba(18, 18, 18, 0.697);
+     cursor: pointer;
+     transform: scale(1.08);
+ }
+
+ .image1{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border-bottom: 1px solid rgb(125, 186, 40);
+ }
+
+ .i{
+     display: block;
+     text-align: center;
+     transition: all 2s linear;
+ }
+
+ .inone{
+     display: none;
+     transition: all 2s linear;
+ }
+
+
+
+ .chefs{
+     display: flex;
+   
+     background-image: url(backChef.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 165rem;
+    height: 34.5rem;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    z-index: -1;
+     
+ }
+
+ .chef{
+     margin-left: 1rem;
+     transform: scale(0.7);
+     outline: 1px solid white;
+     outline-offset: -10px;
+     border-radius: 1rem;
+ }
+
+ @media (max-width: 900px) {
+     .chefs{
+         height: 50rem;
+     }
+ }
+
+ @media (max-width: 610px) {
+    .chefs{
+        height: 80rem;
+    }
+}
+
+
+
+.i1::before,
+.i1::after{
+   content: '';
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+
+.i1::before{
+    border-style: solid;
+    border-width: 0 0 50px 50px;
+    border-color: transparent transparent white transparent;
+    transition: border .25s;
+}
+
+.i1::after{
+    content: 'pizza';
+    bottom: 15px;
+    right: 15px;
+    color: black;
+    opacity: 0;
+    font-size: 2rem;
+}
+
+.i1::before:hover{
+    border-width: 0 0 100px 100px;
+}
+
+.i1::after:hover{
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+
+
+
+.tell{
+    margin-top: 1rem;
+    background-color: rgb(125, 186, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    width: 80%;
+    margin-left: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+   
+}
+
+@media(max-width: 600px){
+    .tell{
+        margin-left: 0;
+    }
+}
+
+.contac{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    
+    
+}
+
+.titleform{
+    border-bottom: 1px solid rgb(125, 186, 40);
+    font-size: 3rem;
+}
+
+.name-email{
+display: flex;
+justify-content: flex-start;
+font-size: 2rem;
+
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub{
+   background-color: rgb(125, 186, 40);
+   color: white;
+   font-size: 2rem;
+   border: none;
+}
+
+
+
+.footer{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(43, 40, 40);
+}
+
+.f1{
+    color: rgb(125, 186, 40);
+    text-align: center;
+}
+
+.p1{
+    color: white;
+    text-align: center;
+}
+
+@media(max-width: 900px){
+    .footer{
+        flex-direction: column;
+    }
+}
