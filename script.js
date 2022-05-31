@@ -13,6 +13,12 @@ window.addEventListener('scroll', () => {
 
 
 
+gsap.from('.ul li',{ opacity:0, x:20, duration:1.5,  stagger:0.5 })
+
+gsap.from('#discovery',{ opacity:0, x:20, duration:1.5,  scale:0.5, rotate: 90})
+
+gsap.from('#touchè',{ opacity:0, duration:2,  scale:0.5,})
+
 
 //type
 let all = document.querySelector('.all');
@@ -52,34 +58,10 @@ i10.classList.add('i');
 i11.classList.add('i');
 i12.classList.add('i');
 
-i1.classList.remove('inone');
-    i2.classList.remove('inone');
-    i7.classList.remove('inone');
-    i8.classList.remove('inone');
-    i9.classList.remove('inone');
-    i10.classList.remove('inone');
-    i11.classList.remove('inone');
-    i12.classList.remove('inone');
 })
 
 
-function brea(){
-    all.classList.add('btALL')
-    i1.classList.add('inone');
-    i2.classList.add('inone');
-    i7.classList.add('inone');
-    i8.classList.add('inone');
-    i9.classList.add('inone');
-    i10.classList.add('inone');
-    i11.classList.add('inone');
-    i12.classList.add('inone');
 
-    i1.classList.remove('i');
-    i6.classList.remove('i');
-    i8.classList.remove('i');
-    i9.classList.remove('i');
-    
-}
 
 
 
@@ -92,8 +74,3 @@ ul.classList.toggle('ulMobile')
 })
 
 
-gsap.from('.ul li',{ opacity:0, x:20, duration:1.5,  stagger:0.5 })
-
-gsap.from('#discovery',{ opacity:0, x:20, duration:1.5,  scale:0.5, rotate: 90})
-
-gsap.from('#touchè',{ opacity:0, duration:2,  scale:0.5,})
