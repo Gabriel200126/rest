@@ -367,6 +367,12 @@ background-size: cover;
      flex-wrap: wrap;
  }
 
+@media (max-width:450px) {
+     .sec1{
+         margin-left: -1.7rem;
+     }
+ }
+
 
 
  .img{
