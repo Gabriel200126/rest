@@ -1,4 +1,6 @@
-
+body{
+    background-color: white;
+}
 .bgnav{
     background: url(intro-bg2.jpg);
     background-size: contain;
@@ -161,7 +163,7 @@ a:hover{
 .our{
     border-bottom: 2px solid rgb(125, 186, 40);
     text-align: center;
-    color: rgb(53, 47, 47);
+    color: rgb(160, 198, 117);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -482,13 +484,13 @@ background-size: cover;
 
 .tell{
     margin-top: 1rem;
-    background-color: rgb(125, 186, 40);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(125, 186, 40);
+    flex-wrap: wrap;
     padding: 3rem;
-    width: 60%;
-    margin-left: 3rem;
+   
     text-align: center;
     border-radius: 1rem;
     color: white;
