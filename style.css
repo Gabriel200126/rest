@@ -498,6 +498,11 @@ background-size: cover;
    
 }
 
+.tell:hover{
+    color: white; !important
+        transform: scale(1.08);
+}
+
 @media(max-width: 600px){
     .tell{
         margin-left: 0;
